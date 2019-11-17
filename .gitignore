@@ -1,0 +1,5 @@
+.env
+node_modules
+lambda.zip
+temp
+.DS_Store
