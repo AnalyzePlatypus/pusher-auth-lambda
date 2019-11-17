@@ -67,3 +67,11 @@ npm run deploy # Run `build` & `deploy` in a single step
 ```
 
 When you're done, run `npm run deploy` to zip the code and upload it to Lambda.
+
+## Testing
+
+Make sure CORS works:
+
+```
+curl -v -X OPTIONS -H "Access-Control-Request-Method: POST" https://gn501ltkg7.execute-api.us-east-1.amazonaws.com/default/dictaweb-pusher-auth
+```
